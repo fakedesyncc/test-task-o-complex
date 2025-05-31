@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+}
+
+.weather-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.weather-header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px;
+}
+
+.weather-body {
+    padding: 20px;
+    background-color: white;
+}
+
+.forecast-item {
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #eee;
+}
+
+.forecast-item:last-child {
+    border-right: none;
+}
+
+.history-btn {
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.history-btn:hover {
+    background-color: #dee2e6;
+}
